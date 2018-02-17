@@ -18,7 +18,7 @@ Features:
 
 ## USAGE
 
-* NOTE *You cannot run this seeder on the same machine as a Hush full
+* NOTE *You cannot run this seeder on the same machine as a Zelcash full
 node, as both require port 16125.*
 
 Assuming you want to run a dns seed on dnsseed.example.com, you will
