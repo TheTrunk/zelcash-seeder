@@ -445,8 +445,8 @@ int main(int argc, char **argv) {
       printf("Using testnet.\n");
       pchMessageStart[0] = 0xFA;
       pchMessageStart[1] = 0x1A;
-      pchMessageStart[2] = 0x24;
-      pchMessageStart[3] = 0xB6;
+      pchMessageStart[2] = 0xF9;
+      pchMessageStart[3] = 0xBF;
       seeds = testnet_seeds;
       fTestNet = true;
   }
