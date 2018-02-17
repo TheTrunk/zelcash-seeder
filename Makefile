@@ -11,7 +11,3 @@ dns.o: dns.c
 	gcc -pthread -std=c99 $(CXXFLAGS) dns.c -Wall -c -o dns.o
 
 %.o: %.cpp
-
-help:
-	echo ${COMMIT_HASH}
-	echo ${BUILD_DATE}
