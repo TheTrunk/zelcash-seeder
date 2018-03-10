@@ -389,8 +389,8 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"explorer.zel.cash", "explorer2.zel.cash", "explorer.zelcash.online"};
-static const string testnet_seeds[] = {"testnet.zelcash.online", "testnet.zel.cash", "testnet2.zel.cash"};
+static const string mainnet_seeds[] = {"explorer.zel.cash", "explorer2.zel.cash", "explorer.zelcash.online",""};
+static const string testnet_seeds[] = {"testnet.zelcash.online", "testnet.zel.cash", "testnet2.zel.cash",""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
